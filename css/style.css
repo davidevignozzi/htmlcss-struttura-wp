@@ -16,6 +16,34 @@
   margin-bottom: 10px;
 }
 
+.main-container::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.block-1{
+  float: left;
+  width: 25%;
+  height: 600px;
+  background-color: pink;
+}
+
+.block-2{
+  float: left;
+  width: calc(50% - 30px);
+  height: 800px;
+  margin: 0 15px;
+  background-color: violet;
+}
+
+.block-3{
+  float: left;
+  width: 25%;
+  height: 700px;
+  background-color: pink;
+}
+
 .footer-container{
   width: 100%;
   height: 75px;
