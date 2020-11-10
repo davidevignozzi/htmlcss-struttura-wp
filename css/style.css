@@ -40,8 +40,16 @@
 .block-3{
   float: left;
   width: 25%;
-  height: 700px;
+  height: 300px;
   background-color: pink;
+}
+
+.block-4{
+  float: left;
+  width: 25%;
+  height: 300px;
+  background-color: pink;
+  margin-top: 10px;
 }
 
 .footer-container{
